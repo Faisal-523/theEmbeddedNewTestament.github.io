@@ -9,7 +9,9 @@
 - Producer and Consumer Problem
 - Caching (cache coherency/cache line)
 - Memory mapped IO/ IO Mapped IO
-- Interrupt **(Done)**
+- Interrupt (low level interrupt latency, interrupt sequence low level )
+- Exceptions
+- system call
 - Context switch (process/ISR)
 - Registers/instructions/execution 
 - ARM programmer's model 
@@ -81,5 +83,9 @@
   - Power of 2 
   - Add binary
   - Single number 
+  - Swap byte/nibble/bit
 - Check endianess 
+- containerof macro
+- implement sizeof
+- struct size
 
