@@ -6,11 +6,11 @@
 
 LeetCode # | Title | Diffculty | Importance | Implemented?
 ----------------|-------|----------|---|---
-1 |	Two Sum | Easy | ***** | v
-14 | Longest Common Prefix | Easy | ***** | v	
-19 | Remove Nth Node From End of List | Medium | ****| v	
-20 | Valid Parentheses | Easy | ***** | v	
-21 | Merge Two Sorted Lists | Easy | ***** | v	
+1 |	Two Sum | Easy | ***** | done
+14 | Longest Common Prefix | Easy | ***** | done	
+19 | Remove Nth Node From End of List | Medium | ****| done
+20 | Valid Parentheses | Easy | ***** | done	
+21 | Merge Two Sorted Lists | Easy | ***** | done	
 24 | Swap Nodes in Pairs | Medium | ***** | v	
 26 | Remove Duplicates from Sorted Array | Easy | ***** | v	
 27 | Remove Element | Easy | *****| v	
