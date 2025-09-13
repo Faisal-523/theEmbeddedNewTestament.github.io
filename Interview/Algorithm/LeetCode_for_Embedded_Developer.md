@@ -11,11 +11,11 @@ LeetCode # | Title | Diffculty | Importance | Implemented?
 19 | Remove Nth Node From End of List | Medium | ****| done
 20 | Valid Parentheses | Easy | ***** | done	
 21 | Merge Two Sorted Lists | Easy | ***** | done	
-24 | Swap Nodes in Pairs | Medium | ***** | v	
-26 | Remove Duplicates from Sorted Array | Easy | ***** | v	
-27 | Remove Element | Easy | *****| v	
-28 | Implement strStr() | Easy | ***** | v	
-33 | Search in Rotated Sorted Array | Medium | *** | v	
+24 | Swap Nodes in Pairs | Medium | ***** | done	
+26 | Remove Duplicates from Sorted Array | Easy | ***** | done	
+27 | Remove Element | Easy | *****| done	
+28 | Implement strStr() | Easy | ***** | done	
+33 | Search in Rotated Sorted Array | Medium | *** | done	
 38 | Count and Say | Easy | ****| v	
 53 | Maximum Subarray | Easy | ** | v	
 58 | Length of Last Word | Easy | *** | v	
