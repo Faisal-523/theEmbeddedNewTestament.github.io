@@ -16,10 +16,10 @@ LeetCode # | Title | Diffculty | Importance | Implemented?
 27 | Remove Element | Easy | *****| done	
 28 | Implement strStr() | Easy | ***** | done	
 33 | Search in Rotated Sorted Array | Medium | *** | done	
-38 | Count and Say | Easy | ****| v	
-53 | Maximum Subarray | Easy | ** | v	
-58 | Length of Last Word | Easy | *** | v	
-66 | Plus One | Easy | *** | v	
+38 | Count and Say | Easy | ****| done	
+53 | Maximum Subarray | Easy | ** | done	
+58 | Length of Last Word | Easy | *** | done	
+66 | Plus One | Easy | *** | done
 67 | Add Binary | Easy | **** | v	
 83 | Remove Duplicates from Sorted List | Easy | ***** | v	
 88 | Merge Sorted Array | Easy | **** | v	
