@@ -20,11 +20,11 @@ LeetCode # | Title | Diffculty | Importance | Implemented?
 53 | Maximum Subarray | Easy | ** | done	
 58 | Length of Last Word | Easy | *** | done	
 66 | Plus One | Easy | *** | done
-67 | Add Binary | Easy | **** | v	
-83 | Remove Duplicates from Sorted List | Easy | ***** | v	
-88 | Merge Sorted Array | Easy | **** | v	
-100 | Same Tree | Easy | **** | v	
-104 | Maximum Depth of Binary Tree | Easy | *** | v	
+67 | Add Binary | Easy | **** | done	
+83 | Remove Duplicates from Sorted List | Easy | ***** | done	
+88 | Merge Sorted Array | Easy | **** | done	
+100 | Same Tree | Easy | **** | done	
+104 | Maximum Depth of Binary Tree | Easy | *** | done	
 108 | Convert Sorted Array to Binary Search Tree | Easy | ** |	
 109 | Convert Sorted List to Binary Search Tree | Medium | ** |	
 110 | Balanced Binary Tree | Easy | ** | v	
