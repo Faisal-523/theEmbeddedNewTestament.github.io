@@ -1,580 +1,464 @@
-# Embedded System is Life, Embedded System is love.
+# 🎯 **Ace Your Embedded Software Interview**
 
+> **The Ultimate Interview Preparation Guide for Embedded Software Engineers**  
+> Master the most critical topics to excel in embedded software engineering interviews
 
-## Concepts by Domain:
+[![GitHub stars](https://img.shields.io/github/stars/theEmbeddedGeorge/theEmbeddedGeorge.github.io?style=social)](https://github.com/theEmbeddedGeorge/theEmbeddedGeorge.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/theEmbeddedGeorge/theEmbeddedGeorge.github.io?style=social)](https://github.com/theEmbeddedGeorge/theEmbeddedGeorge.github.io)
+[![GitHub issues](https://img.shields.io/github/issues/theEmbeddedGeorge/theEmbeddedGeorge.github.io)](https://github.com/theEmbeddedGeorge/theEmbeddedGeorge.github.io/issues)
 
-### A. C/C++ Coding Specific
-1.  [C Overview](https://embeddedworlddevelopers.blogspot.com/p/c-language.html)
-2.  [C++ Overview](https://embeddedworlddevelopers.blogspot.com/p/c-language_12.html)
-3.  [Tenouk's Ultimate C/C++ Tutorials](https://www.tenouk.com/Sitemap.html)
-4.  Attributes
-5.  [C/C++ Preprocessor Directives](https://www.tenouk.com/Module10.html)
-6.  [C/C++ Type Specifiers](https://www.tenouk.com/Module11.html)
-7.  [Structure Member Alignment, Padding and Data Packing](https://www.geeksforgeeks.org/structure-member-alignment-padding-and-data-packing/)
-8. [Memory Alignment](https://embeddedartistry.com/blog/2017/02/22/generating-aligned-memory/)
-9. [The Function Stack](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow2a.html#:~:text=Arguments%20passed%20to%20a%20C,called%20the%20C%20stack%20frame.)
-10. [C/C++ Compile, Link and Running Programs](https://www.tenouk.com/ModuleW.html)
-11. [C Storage Class, Scope and Memory allocation](https://www.tenouk.com/ModuleZ.html)
-12. [C/C++ Storage Classes: const, volatile, local and global](https://www.tenouk.com/Module20.html)
-13. Inline functions
-    1.  [GCC Inline Assembly](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html)
-    2.  [Inline Assembly](https://wiki.osdev.org/Inline_Assembly)
-    3.  [Inline Assembly examples](https://wiki.osdev.org/Inline_Assembly/Examples)
-14. Declarations in C
-15. [C/C++ typedef](https://stackoverflow.com/questions/1675351/typedef-struct-vs-struct-definitions)
-16. Runtime data strtuctures 
-17. [Buffer Overflow](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow1.html)
-    1. [The Basic of x86 Architecture](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow1a.html)
-    2. [An Assembly Language](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow1b.html)
-    3. [A Compiler, Assembler, Linker & Loader](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow1c.html)
-    4. [C/C++ Process Memory Layout & Function Call](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow1c.html)
-    5. [The Function Stack](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow2a.html)
-    6. [The Stack Operation](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow3.html)
-    7. [A Stack-based Buffer Overflow](https://www.clublexus.com/how-tos/slideshows/6-mods-every-lexus-rc-owner-should-jump-on-440204#6-weight-reduction)
-    8. [A Shellcode: The Payload](https://www.tenouk.com/Bufferoverflowc/Bufferoverflow5.html)
-18. C++ New Standard Specific Topics
-    1. [auto vs auto & vs auto &&](https://stackoverflow.com/questions/29859796/c-auto-vs-auto)
-    2. Copy by value, by reference, by move
-19. [C++ Big O Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md#41-insertion-sort)
-20. [C++ STL Cheat Sheet](Resources/STL_Cheatsheet.pdf)
-21. Concurrency
-    1.  [C/C++ MULTI-THREADED programming with Pthread](https://www.bogotobogo.com/cplusplus/multithreading_pthread.php)
-    2.  [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/)
-    3.  [OpenMP Programming](https://computing.llnl.gov/tutorials/openMP/)
+---
 
-### B. Programming Languages
-1. [C](https://www.geeksforgeeks.org/c-programming-language/)
-2. [C++](https://www.geeksforgeeks.org/c-plus-plus/?ref=leftbar)
-3. Bash
-4. [Python](https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar)
-5. Assembly
+<div align="center">
 
-### C. Data Structures & Implementation
-1. [Finite State Machine](Data_Struct_Implementation/stateMachine/README.md)
-   1. FSM for tasks state
-2. Task Scheduler
-   1. [Roud Robin + preemptive in RTOS](Data_Struct_Implementation\taskScheduler\exampleRTOSScheduler\READEME.md)
-3. [Endianess Check](Data_Struct_Implementation/endianess/README.md)
-4. [Swap Endianess](Data_Struct_Implementation/endianessSwap/README.md)
-5. [Array of Bits (bit sets/bit map)](Data_Struct_Implementation/bitsArray/README.md)
-6. Low Pass Filter
-7. [Memory map IO register manipulation](Data_Struct_Implementation/memoryMap/memory_map_io.md)
-8. [Simple One-layer Timer list/wheel](Data_Struct_Implementation/timerWheel/README.md)
-9. [Memory Pool Allocation](Data_Struct_Implementation\memoryPoolAllocator\README.md)
-10. Simple Slab Allocator
-11. Data Structure
-    1.  [Ring Buffer](./Data_Struct_Implementation/circularRingBuffer/README.md)
-    2.  [Hash Table](./Data_Struct_Implementation/hashTable/README.md)
-    3.  [Heap (priority queue)](./Data_Struct_Implementation/binaryHeap/README.md)
-    4.  [Stack](./Data_Struct_Implementation/stack/README.md)
-    5.  [Queue](./Data_Struct_Implementation/queue/README.md)
-    6.  [Binary Search Tree](Data_Struct_Implementation/BST/README.md)
-    7.  Red Black Tree
-    8.  Minium Spanning Tree (MST)
-    9.  Bitwise tries
-12. Math
-    1.  Rolling average
-    2.  Taylor Series
-    3.  Dividing by a constant
-    4.  Sine Functions with Lookup table
-    5.  Linear Interpolation
-    6.  Floating Point Arthimetic
-    7.  [Multiply 16-bit integers using an 8-bit multiplier](Data_Struct_Implementation/Math/Multiply16Bitwith8Bit.md)
-13. Common STL function implementation
-    1. [Safe memcpy (memmove)](Data_Struct_Implementation/memcpy_memmove/README.md)
-    2. [itoa](Data_Struct_Implementation/itoa/README.md)
-    3. [atoi](Data_Struct_Implementation/atoi/README.md)
-    4. [sizeof](Data_Struct_Implementation/sizeof/README.md)
-    5. [Aligned Malloc](Data_Struct_Implementation/alignedMalloc/README.md)
-    6. Malloc()
-    7. [strstr()](Data_Struct_Implementation\strstr\README.md)
-14. Bits Manipulation
-    1.  [Reverse Bits](Data_Struct_Implementation/BitsManipulation/reverseBits.md)
-    2.  Flip a monochrome bitmap
-    3.  [Count bits with lookup table](Data_Struct_Implementation\BitsManipulation\countBitsLookUpTable.md)
-    4.  [Length of the Longest Consecutive 1s in Binary Representation](https://www.geeksforgeeks.org/length-longest-consecutive-1s-binary-representation/)
-    5.  [Find most significant set bit of a number](https://www.geeksforgeeks.org/find-significant-set-bit-number/)
-    6.  [Swap two number without temporary varaible](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/)
-    7.  [Number is a power of 2](https://www.geeksforgeeks.org/bits-manipulation-important-tactics/)
-    8.  [Swap all odd and even bits](Data_Struct_Implementation/BitsManipulation/swapOddEvenBIts.md)
-    9.  [Find position of the only set bit](Data_Struct_Implementation/BitsManipulation/positionOfSetBit.md)
-    10. [Find the element that appears once and other elements appear 3 times](Data_Struct_Implementation/BitsManipulation/singleNumber.md)
-    11. [Signness Check for two integers](Data_Struct_Implementation/BitsManipulation/signessCheck.md)
-    12. [Turn off the rightmost set bit](Data_Struct_Implementation/BitsManipulation/turnoffRightmostBit.md)
-    13. [Rotate bits to left/rigtht](Data_Struct_Implementation/BitsManipulation/rotateLeftRight.md)
-    14. [Swap bits in a given number](Data_Struct_Implementation/BitsManipulation/SwapBitsInNumber.md)
-15. Concurrency 
-    1.  Implement a Spinlock/Mutex/Semaphone
-        1. [Test-and-set](https://en.wikipedia.org/wiki/Test-and-set) 
-        2. [Compare-and-swap](https://en.wikipedia.org/wiki/Compare-and-swap)
-        3. Test-and-clear
-        4. Implement Semaphone with Mutex
-    2.  [Producer and consumer problem (Bounded Buffer)](https://shivammitra.com/c/producer-consumer-problem-in-c/#)
-    3.  [Reader Writer Problem](Data_Struct_Implementation/concurrency/ReaderWritter.md)
-    4.  [Leetcode Concurrency Tag](https://leetcode.com/problemset/concurrency/)
-    5.  [FizzBuzz MultiThread](Data_Struct_Implementation/concurrency/FizzBuzz.md)
-    6.  [Bouned Queue](Data_Struct_Implementation/concurrency/BoundedQueue.md)
-    7.  [Print In Order](Data_Struct_Implementation/concurrency/PrintInorder.md)
-    8.  [Building H2O](Data_Struct_Implementation/concurrency/BuildingH2O.md)
-    9.  [The Dining Philosophers](Data_Struct_Implementation/concurrency/TheDiningPhilosophers.md)
-16. Other Implementations
-    1.  Shuffle cards
-    2.  Accurately (emphasize) read 64bit register with read32
-    3.  Given a matrix and its center coordinates, draw the circle
-    4.  Find a 32 bit frame start sequence in a raw byte stream buffer
-    5.  Memory tracker to hook into glibc library to keep track of dynamic memory allocations, including statistics
-    6.  Given an array of angles and an array of voltages for these angles, now there is a new angle coming in, calculate its voltage.
-17. [Other Common C algorithm](https://github.com/fragglet/c-algorithms)
+### 🌐 **Interactive Website — [EmbeddedInterviewLab](https://embeddedinterviewlab.com/)**
 
+*55+ knowledge articles • Concept Q&A • Coding practice with AI feedback*
 
+| [**📚 Knowledge Topics**](https://embeddedinterviewlab.com/topics/) | [**🎯 Interview Prep**](https://embeddedinterviewlab.com/interview/) | [**💻 Coding Practice**](https://embeddedinterviewlab.com/coding/) |
+|:---:|:---:|:---:|
+| C, MCU, peripherals, RTOS, networking, wireless | Concept Q&A, system design | C/C++ problems with AI feedback |
 
-### D. Basic Algorithms
-1. [Sort](https://www.cnblogs.com/onepixel/p/7674659.html)
-   1.  [Bubble Sort](Data_Struct_Implementation/bubbleSort/bubbleSort.md)
-   2.  [Merge Sort](Data_Struct_Implementation/mergeSort/mergeSort.md)
-   3.  [Quick Sort](Data_Struct_Implementation/quickSort/quicksort.md)
-   4.  [Heap Sort](Data_Struct_Implementation/heapSort/heapSort.md)
-   5.  [Insertion Sort](Data_Struct_Implementation/insertionSort/insertionSort.md)
-   6.  Binary Insertion Sort
-2.  Search
-    1.  [Hash](Data_Struct_Implementation/hashTable/README.md)
-    2.  [Binary search Tree](Data_Struct_Implementation/BST/README.md)
-    3.  Graph
+**[👉 Start learning at embeddedinterviewlab.com](https://embeddedinterviewlab.com/)**
 
-### E. Programming API 
-1. Memory management
-2. Multi-thread/Multi-processing
-   1. [POSIX Thread](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html)
-   2. [Unix IPC](Resources/beeje_guide_unix_ipc.pdf)
-3. Network 
-   1. [POSIX Socket Programming](Resources/beeje_guide_network_programming.pdf)
-   2. [Unix Socket (private google doc)](https://drive.google.com/file/d/1BlcMJzdqdaSYS0jKmI_ZXQqukEG8beCq/view?usp=sharing)
+</div>
 
-### F. Bus
-1.  [Serial Communication](Bus_Protocol/Serial_communication.md)
-    1.  Asynchronous Serial Protocols
-        1.  [UART](Bus_Protocol/Uart.md)
-        2.  [RS232/RS422/RS485](Bus_Protocol/RS232_RS422_RS485.md)
-    2.  Synchronous Serial Protocols
-        1.  [SPI](./Bus_Protocol/spi.md)
-        2.  [I2C](./Bus_Protocol/i2c.md)
-        3.  CAN
-        4.  USB
-2.  PCIE
+---
 
-### G. Linux Commands 
-1. [Linux Fundamentals](http://linux-training.be/linuxfun.pdf)
-2. [Linux System Administration](http://linux-training.be/linuxsys.pdf)
-3. [Linux Servers](http://linux-training.be/linuxsrv.pdf)
-4. [Linux Storage Management](http://linux-training.be/linuxsto.pdf)
-5. [Linux Security](http://linux-training.be/linuxsec.pdf)
-6. [Linux Networking](http://linux-training.be/linuxnet.pdf)
+## 🎯 **Interview Preparation Strategy**
 
+### **🔥 High Priority (95%+ of interviews)**
+Start here → [C Programming Mastery](#c-programming-mastery) → [Hardware Fundamentals](#hardware-fundamentals) → [Communication Interfaces](#communication-interfaces--protocols)
 
-### H. Operating Systems
-1.  [Interrupt](./Operating_System/Interrupt.md)
-    1.  [Exception Handling](Operating_System/Exception_ARM64.md)
-    2.  System call
-    3. [Re-entrant & Thread Safe Function](https://www.geeksforgeeks.org/reentrant-function/)
-2.  [Process Management](Operating_System/Process/Process.md)
-    1.  Process Manager
-        1.  Process/Task Control Block
-    2.  [Scheduling](Operating_System/Process/Process_thread_scheduling.md)
-        1.  Context Switch
-        2.  Scheduling policy/algorithm
-        3.  Dispatcher
-    3.  [Threads and Concurrency](Operating_System/Process/Threads.md)
-        1.  Multithreading/Multiprocessing
-3.  Interprocess Synchronization/Communication
-    1.  [IPC](Operating_System/Process/IPC.md)
-        1.  Pipe
-        2.  Socket
-        3.  Message Queue
-        4.  Shared Memory
-        5.  Signal
-    2.  Sychronization Facilities
-        1.  Semaphore
-        2.  Mutex
-        3.  Spinlock
-4.  Memory Management
-    1.  [Memory Management Reference](https://www.memorymanagement.org/index.html)
-    2.  Memory Hardware
-    3.  [Virtual Addressing/Memory](Operating_System/virtual_memory.md)
-    4.  Caching
-5.  File System Management
-    1.  Operations on Files
-    2.  Virtual File System
-    3.  Concrete File System
-    4.  Inodes
-6.  Device I/O Management
-7.  RTOS
-    1.  FreeRTOS
-        1.  [Firmware Stack Layer](Operating_System/freertos/firmware_stack.md)
-        2.  IPC/Sychronization Mechanism
-        3.  Scheduler
-        4.  Interrupt
-        5.  Timers and time management
-        6.  [API Reference](https://www.freertos.org/a00106.html)
-    2.  [QNX](http://www.qnx.com/developers/docs/qnxcar2/index.jsp?topic=%2Fcom.qnx.doc.neutrino.getting_started%2Ftopic%2Fs3_qnx2nto_Device_driver_model.html)
-8.  [Linux](https://0xax.gitbooks.io/linux-insides/content/)
-    1.  [Linux Kernel Overview Blogs](http://www.wowotech.net/sort/linux_kenrel)
-    2.  [Kernel Source Code All Versions](https://elixir.bootlin.com/linux/v4.9.242/source)
-    3.  [Linux Device Model](./Operating_System/Linux/Linux_device_model.md)
-    4.  Synchronization primitives
-    5.  Booting
-    6.  [Linux Booting Process](Operating_System/Linux/booting.md)
-    7.  Intialization
-    8.  Interrupt
-    9.  [System Call](Operating_System/Linux/syscall.md)
-    10. [Boot Loader](Operating_System/Linux/boot_loader.md)
-    11. Timers and time management
-    12. [Linux Memory Managment](https://linux-mm.org/)
-    13. [Process Management](https://tldp.org/LDP/intro-linux/html/chap_04.html)
-    14. [Linux Data Structures](https://tldp.org/LDP/tlk/ds/ds.html)
-    15. [Linux Socket Programming](https://www.tenouk.com/cnlinuxsockettutorials.html)
-9.  Android
-    1.  IPC
-    2.  Activity
-    3.  Service
-    4.  Content Provider
-    5.  Broadcast Receiver
+### **⚡ Medium Priority (70%+ of interviews)**
+Focus on → [Real-Time Systems](#real-time-systems--rtos) → [Debugging & Testing](#debugging--testing) → [System Integration](#system-integration)
 
-### I. Computer Architecture
-1.  ARM programmer's model
-2.  Pipeline
-3.  CPU Architecture
-    1.  ARM
-        1.  [ARM overview](https://wiki.osdev.org/ARM_Overview)
-        2.  [ARM Assembly](https://azeria-labs.com/writing-arm-assembly-part-1/)
-        3.  [ARM Paging](https://wiki.osdev.org/ARM_Paging)
-    2.  Intel
-        1.  [GDT Tutorial](https://wiki.osdev.org/GDT_Tutorial)
-        2.  [Interrupt Descriptor Table](https://wiki.osdev.org/Interrupt_Descriptor_Table)
-        3.  [IDT problems](https://wiki.osdev.org/IDT_problems#Problems_with_IDTs)
-        4.  [Advanced Programmable Interrupt Controller (APIC)](https://wiki.osdev.org/APIC)
-4.  [Memory Hierachy](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
-5.  Memory
-    1.  [Cache memory](https://www.geeksforgeeks.org/cache-memory-in-computer-organization/)
-    2.  [Cache coherence](https://www.geeksforgeeks.org/cache-coherence/)
-6.  [DMA](./Computer_architecture/dma.md)
-7.  TCM
-8.  [TLB](./Computer_architecture/tlb.md)
-9.  NUMA
-10. Memory translation
+### **💎 Advanced Topics (50%+ for senior roles)**
+Master → [Advanced Hardware](#advanced-hardware) → [Security](#embedded-security) → [Performance Optimization](#performance-optimization)
 
-### J. HW Modules
-1.  RAM & ROM
-2.  [Flash Storage](./HW_Module/Flash_Storage.md)
-3.  LED/LCD
-4.  Timer
-    1.  [HPET](https://wiki.osdev.org/HPET)
-    2.  [HPET Spec](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/software-developers-hpet-spec-1-0a.pdf)
-    3.  [APIC Timer](https://wiki.osdev.org/APIC_timer)
-    4.  [Programmable Interval Timer (PIT)](https://wiki.osdev.org/Programmable_Interval_Timer)
-    5.  [RTC](https://wiki.osdev.org/RTC)
-5.  Sensors
-6.  Bluetooth/BLE
-7.  Wifi
-8.  LTE Modem
-9.  USB devices
-10. Memory Protection Unit (MPU)
-11. Memory Management Unit (MMU)
-12. Floating Point Unit (FPU)
-13. Crypto Engine
-14. [STM32 MCU](http://www.emcu.it/STM32.html)
+## 🔥 **High Priority Topics (95%+ of interviews)**
 
-### K. Debugging Techniques
-1.  [JTAG](https://www.xjtag.com/about-jtag/jtag-a-technical-overview/)
-2.  Trace
-3.  [GDB](http://beej.us/guide/bggdb/)
-    1.  [Remote GDB](https://sourceware.org/gdb/current/onlinedocs/gdb/Remote-Debugging.html#Remote-Debugging)
-4.  Sysfs
-5.  Printk
-6.  [Kernel Debugging](https://wiki.osdev.org/How_Do_I_Use_A_Debugger_With_My_OS)
+### **C Programming Mastery**
+*Essential foundation - appears in virtually all embedded interviews*
 
-### L. Version Control
-1.  GIT
-2.  SVN
+#### **Core Language Fundamentals**
+- **[C Language Fundamentals](./Embedded_C/C_Language_Fundamentals.md)** - Data types, control structures, syntax
+- **[Pointers and Memory Addresses](./Embedded_C/Pointers_Memory_Addresses.md)** - Pointer arithmetic, memory addressing
+- **[Type Qualifiers](./Embedded_C/Type_Qualifiers.md)** - volatile, const, restrict in embedded context
+- **[Bit Manipulation](./Embedded_C/Bit_Manipulation.md)** - Bit operations, masking, register manipulation
 
-### M. [IDE Selection](IDE_Selection/IDE.md)
+#### **Memory Management (Critical for interviews)**
+- **[Memory Management](./Embedded_C/Memory_Management.md)** - Stack vs heap, allocation strategies
+- **[Structure Alignment](./Embedded_C/Structure_Alignment.md)** - Memory layout, padding optimization
+- **[Memory Models](./Embedded_C/Memory_Models.md)** - Stack, heap, static memory concepts
+- **[Memory-Mapped I/O](./Embedded_C/Memory_Mapped_IO.md)** - Hardware register access
+- **[Memory Pool Allocation](./Embedded_C/Memory_Pool_Allocation.md)** - Deterministic allocation
+- **[Memory Fragmentation](./Embedded_C/Memory_Fragmentation.md)** - Fragmentation prevention
+- **[Stack Overflow Prevention](./Embedded_C/Stack_Overflow_Prevention.md)** - Stack analysis and protection
 
-### N. Embedded Security
-1.  [Trusted Platform Module (TPM 2.0)](Security/TPM.md)
-2.  [Arm Trust Zone](https://embeddedsecurity.io/?utm_source=linkedin&utm_medium=social&utm_campaign=phillipjohnston&utm_content=linkstoshare)
-3.  Intel SGX
-4.  [Embedded Reverse Engineering](https://blog.3or.de/starting-embedded-reverse-engineering-freertos-libopencm3-on-stm32f103c8t6.html)
-5.  Encryption Algorithms
+#### **Advanced C Programming**
+- **[Inline Functions and Macros](./Embedded_C/Inline_Functions_Macros.md)** - Performance optimization, code size trade-offs
+- **[Compiler Intrinsics](./Embedded_C/Compiler_Intrinsics.md)** - Hardware-specific optimizations, vendor extensions
+- **[Assembly Integration](./Embedded_C/Assembly_Integration.md)** - C-ASM interfacing, critical path optimization
+- **[Cache-Aware Programming](./Embedded_C/Cache_Aware_Programming.md)** - Cache behavior, locality optimization
+- **[DMA Buffer Management](./Embedded_C/DMA_Buffer_Management.md)** - DMA setup, buffer alignment
+- **[Shared Memory Programming](./Embedded_C/Shared_Memory_Programming.md)** - Multi-core synchronization
+- **[Memory Leak Detection](./Embedded_C/Memory_Leak_Detection.md)** - Leak detection tools, static analysis
+- **[Memory Protection](./Embedded_C/Memory_Protection.md)** - MPU usage, access control
+- **[Aligned Memory Allocation](./Embedded_C/Aligned_Memory_Allocation.md)** - Cache line alignment, DMA requirements
 
-### O. Network
-1.  [Network OSI layer](https://www.geeksforgeeks.org/layers-of-osi-model/?ref=lbp)
-    1.  Application layer
-        1.  [DHCP](Network/dhcp.md)
-        2.  PTP
-        3.  HTTP
-        4.  DNS
-    2.  Transport layer
-        1.  [TCP/UDP](Network/tcp_udp_ip.md)
-    3.  [Network layer](Network/network.md)
-        1.  [IP](Network/ip.md)
-        2.  [ICMP](Network/icmp.md)
-        3.  [NAT](Network/nat.md)
-        4.  [Routing and Protocols (RIP, OSPF, and BGP)](Network/routing.md)
-        5.  [Router](Network/router.md)
-    4.  Link layer
-        1.  PPP
-        2.  [ARP/MAC](Network/ARP.md)
-        3.  [PTP/gPTP](Network/PTP.md)
-        4.  [Ethernet](Network/ethernet.md)
-        5.  [Switch](Network/switch.md)
-    5.  Physical layer
-2.  [LTE](Network/LTE.md)
-3.  Wifi
-4.  BLE
-5.  Bluetooth
-6.  [Multicast](Network/Multicast.md)
-7.  [TSN/AVB](Network/AVB_TSN.md)
+### **Hardware Fundamentals**
+*Core hardware concepts - essential for all embedded roles*
 
-### P. Embedded Programming with Modern C++
-1. [C++11 Q/A](https://www.stroustrup.com/C++11FAQ.html#specific-aims)
-2. [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
-3. Resources
-   1. [Modern C++ for Embedded Öffentliche Vorträge Conference Articles](https://www.grimm-jaud.de/index.php/oeffentliche-vortraege)
-   2. [C++ core guideline by topics](https://www.modernescpp.com/index.php/category/modern-c)
-   3. [Technical Report on C++ Performance](http://www.open-std.org/jtc1/sc22/wg21/docs/TR18015.pdf)
-   4. [bogotobogo blogs for embedded](https://www.bogotobogo.com/Embedded/)
+#### **Digital I/O & GPIO (Most Common)**
+- **[GPIO Configuration](./Hardware_Fundamentals/GPIO_Configuration.md)** - Pin configuration, modes, electrical characteristics
+- **[Digital I/O Programming](./Hardware_Fundamentals/Digital_IO_Programming.md)** - Digital signal handling
 
-### Q. Design Patterns
-1. [Creation Patterns](https://refactoring.guru/design-patterns/creational-patterns)
-   1. [Factor Method](https://refactoring.guru/design-patterns/factory-method)
-   2. [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
-   3. [Builder](https://refactoring.guru/design-patterns/builder)
-   4. [Prototype](https://refactoring.guru/design-patterns/prototype)
-   5. [Singleton](https://refactoring.guru/design-patterns/singleton)
-2. [Sturctural Patterns](https://refactoring.guru/design-patterns/structural-patterns)
-   1. [Adapter](https://refactoring.guru/design-patterns/adapter)
-   2. [Bridge](https://refactoring.guru/design-patterns/bridge)
-   3. [Composite](https://refactoring.guru/design-patterns/composite)
-   4. [Decorator](https://refactoring.guru/design-patterns/decorator)
-   5. [Facade](https://refactoring.guru/design-patterns/facade)
-   6. [Flyweight](https://refactoring.guru/design-patterns/flyweight)
-   7. [Proxy](https://refactoring.guru/design-patterns/proxy)
-3. [Behavior Patterns](https://refactoring.guru/design-patterns/behavioral-patterns)
-   1. [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
-   2. [Command](https://refactoring.guru/design-patterns/command)
-   3. [Iterator](https://refactoring.guru/design-patterns/iterator)
-   4. [Mediator](https://refactoring.guru/design-patterns/mediator)
-   5. [Memento](https://refactoring.guru/design-patterns/memento)
-   6. [Observer](https://refactoring.guru/design-patterns/observer)
-   7. [State](https://refactoring.guru/design-patterns/state)
-   8. [Strategy](https://refactoring.guru/design-patterns/strategy)
-   9. [Template Method](https://refactoring.guru/design-patterns/template-method)
-   10. [Visitor](https://refactoring.guru/design-patterns/visitor)
+#### **Timing & Interrupts (Critical Knowledge)**
+- **[Timer/Counter Programming](./Hardware_Fundamentals/Timer_Counter_Programming.md)** - Timer setup, prescalers, overflow
+- **[External Interrupts](./Hardware_Fundamentals/External_Interrupts.md)** - Interrupt setup, ISR design
+- **[Interrupts and Exceptions](./Hardware_Fundamentals/Interrupts_Exceptions.md)** - Exception handling, vectors
+- **[Pulse Width Modulation](./Hardware_Fundamentals/Pulse_Width_Modulation.md)** - PWM generation, duty cycle
 
+#### **Analog & Power Management**
+- **[Analog I/O](./Hardware_Fundamentals/Analog_IO.md)** - ADC/DAC, signal processing
+- **[Power Management](./Hardware_Fundamentals/Power_Management.md)** - Sleep modes, power optimization
+- **[Clock Management](./Hardware_Fundamentals/Clock_Management.md)** - Clock trees, frequency scaling
+- **[Reset Management](./Hardware_Fundamentals/Reset_Management.md)** - Reset types, initialization
 
-## Interview Psychological Preparation
-### A.  Symptom
+#### **System Reliability**
+- **[Watchdog Timers](./Hardware_Fundamentals/Watchdog_Timers.md)** - System monitoring, recovery
+- **[Hardware Abstraction Layer](./Hardware_Fundamentals/Hardware_Abstraction_Layer.md)** - Portable hardware interfaces
 
-### B.  Cause
+### **Communication Interfaces & Protocols**
+*Most frequently tested topic - know these inside out*
 
-### C.  Treatment
+#### **Serial Communication (Universal Knowledge)**
+- **[Serial Communication Fundamentals](./Communication_Protocols/Serial_Communication_Fundamentals.md)** - Serial basics, framing, timing
+- **[UART Protocol](./Communication_Protocols/UART_Protocol.md)** - UART implementation, baud rates
+- **[UART Configuration and Setup](./Communication_Protocols/UART_Configuration.md)** - Hardware setup, flow control
+- **[RS232/RS422/RS485 Standards](./Communication_Protocols/RS232_RS422_RS485_Standards.md)** - Industrial standards
 
-## Interview Questions
+#### **Synchronous Protocols (Essential Trio)**
+- **[SPI Protocol](./Communication_Protocols/SPI_Protocol.md)** - SPI modes, multi-slave systems
+- **[I2C Protocol](./Communication_Protocols/I2C_Protocol.md)** - I2C addressing, arbitration, timing
+- **[CAN Protocol](./Communication_Protocols/CAN_Protocol.md)** - CAN frames, arbitration, error handling
 
-### [A.  LeetCode Questions for Embedded Developers](Interview/Algorithm/LeetCode_for_Embedded_Developer.md)
-1.  [Advanced Leetcode Questions](Interview/Algorithm/LeetCode_for_embedded_advanced.md)
-2.  [Advanced Leetcode Questions Practices](Interview\Algorithm\algorithm_prepare.md)
-3.  [Linked list](Interview/Algorithm/linked_list.md)
-4.  [String]((Interview/Algorithm/string.md)) 
-5.  [Array](Interview/Algorithm/Array.md)
-6.  [Math](Interview/Algorithm/math.md)
-7.  [Data Structure](Interview/Algorithm/dataStructure.md)
+#### **Protocol Implementation & Debugging**
+- **[Protocol Implementation](./Communication_Protocols/Protocol_Implementation.md)** - State machines, error handling
+- **[Error Detection and Handling](./Communication_Protocols/Error_Detection.md)** - Checksums, CRC, timeout handling
+- **[Protocol Analysis and Debugging](./Communication_Protocols/Protocol_Analysis.md)** - Protocol analyzers, debugging techniques
 
-### B.  Other Algorithms Questions
-1.  Sliding Window
-2.  Two Pointers
-3.  Faster & Slow Pointers
-4.  Merge Intervals
-5.  Cyclic Sort
-6.  In-place Reversal of a Linked List
-7.  BFS
-8.  DFS
-9.  Two Heaps
-10. Subsets
-11. Modified Binary Search
-12. Bitwise XOR
-13. Top 'K' Elements
-14. K-way Merge
-15. Knapsack (DP)
-16. Graph Topological Sort
-17. [Bitwise operation C questions](https://aticleworld.com/interview-questions-on-bitwise-operators-in-c/)
-18. [Must Do Coding Questions for Companies like Amazon, Microsoft, Adobe](https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/?ref=leftbar-rightbar)
+#### **Network & Advanced Communication**
+- **[Network Protocols](./Communication_Protocols/Network_Protocols.md)** - TCP/IP, UDP, network stack
+- **[Wireless Protocols](./Communication_Protocols/Wireless_Protocols.md)** - WiFi, Bluetooth, cellular
+- **[High-Speed Protocols](./Communication_Protocols/High_Speed_Protocols.md)** - USB, Ethernet, PCIe
+- **[Real-Time Communication](./Communication_Protocols/Real_Time_Communication.md)** - Real-time constraints, timing
+- **[Secure Communication](./Communication_Protocols/Secure_Communication.md)** - Encryption, authentication
+- **[Multi-Protocol Systems](./Communication_Protocols/Multi_Protocol_Systems.md)** - Multi-protocol integration
 
+## ⚡ **Medium Priority Topics (70%+ of interviews)**
 
-### C.  [Concept Questions](Interview/Concept/Concept_questions.md)
-1.  Bus Protocol
-    1. [I2C Interview Questions](Interview/Concept/I2C_interview_questions.md)
-    2. [SPI Interview Questions](Interview/Concept/SPI_interview_questions.md)
-    3. [CAN Interview Questions](Interview/Concept/CAN_interview_questions.md)
-    4. [UART Interview Questions](Interview/Concept/UART_interview_questions.md)
-    5. USB Interview Questions
-    6. PCIe Interview Questions
-2. Operating System
-   1. [Commonly Asked Operating Systems Interview Questions Sets](https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/)
-   2. [Commonly Asked Operating Systems Interview Questions Sets2](https://www.researchgate.net/profile/Qasim_Hussein/publication/280315098_Operating_System_Questions_and_their_answers_Processes_and_Deadlock_Part_1/links/55b3e99f08aed621de011166.pdf)
-   3. Interrupt Interview Questions
-   4. Synchronization Interview Questions
-   5. [General OS questions](https://practice.geeksforgeeks.org/tag-page.php?tag=Operating%20Systems)
-   6. [Linux](https://practice.geeksforgeeks.org/tag-page.php?tag=Linux)
-   7. [30 Linux Kernel questions](http://embedded-telecom-interview.blogspot.com/2010/06/linux-kernel-interview-questions.html)
-   8. [70 RTOS interview questions](http://embedded-telecom-interview.blogspot.com/2010/06/rtos-interview-questions.html)
-   9. [50 Linux device driver questions](http://embedded-telecom-interview.blogspot.com/search/label/Device%20Driver)
-3. Programming Language
-   1. [10 Questions on dynamic memory allocation in C](https://aticleworld.com/10-interview-question-on-dynamic-memory-allocation/)
-   2. [Top 15 string Interview Questions in C](https://aticleworld.com/string-interview-questions-in-c/)
-   3. [C++ Interview Questions](https://aticleworld.com/cpp-interview-questions/)
-   4. [C Puzzles](https://www.geeksforgeeks.org/puzzles/#CPuzzles)
-   5. [50 interesting C interview questions](http://embedded-telecom-interview.blogspot.com/2010/06/c-interview-questions.html)
-4. Computer Architecture
-   1. [100 ARM architecture questions](http://embedded-telecom-interview.blogspot.com/2011/06/arm-processor-interview-questions.html)
-   2. [Memory](https://practice.geeksforgeeks.org/tag-page.php?tag=memory)
-   3.  [Computer Organization Architecture](https://practice.geeksforgeeks.org/tag-page.php?tag=Computer-Organization-Architecture)
-5. Computer Networks
-   1. [Networking & Telecom Question List](http://embedded-telecom-interview.blogspot.com/2010/06/basic-networktelecom-based-interview.html)
-   2. [Computer Networks](https://practice.geeksforgeeks.org/tag-page.php?tag=Computer%20Networks)
-   3. [Commonly asked Computer Networks Interview Questions](https://www.geeksforgeeks.org/commonly-asked-computer-networks-interview-questions-set-1/)
-   4. [50 Network Questions](http://embedded-telecom-interview.blogspot.com/search/label/Ethernet)
-6. Computer Hardware
-   1. [35 Flash memory questions](http://embedded-telecom-interview.blogspot.com/2010/06/flash-memory-interview-questions.html)
-7. [10 Most Common Embedded Interview Questions](Interview/Concept/Common_embedded_interview.md)
-8.  [Embedded Interview Questions](Interview/Concept/embedded_interview_questions.md)
-9.  [Embedded Interview Questions Repo](https://github.com/Embedded-Systems-Guide/interview-questions)
-10. [Embedded C Interview Questions and answers](https://www.wisdomjobs.com/e-university/embedded-c-interview-questions.html)
-11. [50 Multithreading questions](http://embedded-telecom-interview.blogspot.com/2014/10/multithreading-interview-questions.html)
+### **Real-Time Systems & RTOS**
+*Critical for system-level positions*
 
-### D. Behavior Question
-1.  [Most Common 64 HR Interview Questions and Answer](http://hrinterviews.blogspot.com/)
-2.  [Amazon Leading Principles](https://www.linkedin.com/pulse/how-interview-amazon-leadership-david-anderson/)
-3.  [Star Method](Interview/Behavior/STAR_Method_Interviews%20(Career%20Questions).pdf)
+#### **RTOS Fundamentals (Common Interview Topic)**
+- **[FreeRTOS Basics](./Real_Time_Systems/FreeRTOS_Basics.md)** - Tasks, scheduling, kernel concepts
+- **[Task Creation and Management](./Real_Time_Systems/Task_Creation_Management.md)** - Task lifecycle, priorities
+- **[Scheduling Algorithms](./Real_Time_Systems/Scheduling_Algorithms.md)** - Preemptive vs cooperative
+- **[Kernel Services](./Real_Time_Systems/Kernel_Services.md)** - Queues, semaphores, mutexes
 
-### E. [Brain Teaser](https://www.geeksforgeeks.org/puzzles/)
+#### **Real-Time Concepts (System Design Questions)**
+- **[Interrupt Handling](./Real_Time_Systems/Interrupt_Handling.md)** - ISR design, interrupt latency
+- **[Response Time Analysis](./Real_Time_Systems/Response_Time_Analysis.md)** - Timing analysis, deadlines
+- **[Priority Inversion Prevention](./Real_Time_Systems/Priority_Inversion_Prevention.md)** - Priority inheritance
+- **[Deadlock Avoidance](./Real_Time_Systems/Deadlock_Avoidance.md)** - Deadlock prevention strategies
 
-### F. System Design
-1. [System Design Primer](https://github.com/donnemartin/system-design-primer)
-2. [System design interview for IT companies Github](https://github.com/checkcheckzz/system-design-interview#intro)
-3. [System Design CheatSheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
-4. [System Design Interview Approach](Interview/SystemDesign/systemDesign.md)
-5. System Design Basics
-   1. [Characteristics of distributed systems](Interview/SystemDesign/keyCharacterDistributedSystem.md)
-   2. [Load Balancing](Interview/SystemDesign/loadBalancing.md)
-   3. [Caching](Interview/SystemDesign/caching.md)
-   4. [Data Partitioning](Interview/SystemDesign/dataPartitioning.md)
-   5. [Indexes](Interview/SystemDesign/indexes.md)
-   6. [Proxies](Interview/SystemDesign/proxies.md)
-   7. [Redundancy and Replication](Interview/SystemDesign/Redundancy&Replication.md)
-   8. SQL vs. NoSQL
-   9. [CAP Theorem](Interview/SystemDesign/CAPTheorem.md)
-   10. [Consistent Hashing](Interview/SystemDesign/consistentHashing.md)
-   11. [Long-polling vs WebSockets vs Server-Sent Events](Interview/SystemDesign/longpollingWebSocketsServerEvents.md)
-6. System Design Examples with Embedded Flavor
-   1. Design a Cache
-   2. Design a Vending Machine
-   3. [Design a Traffic Control System](Interview/SystemDesign/examples/airControlSystem.md)
-   4. Design a ATM Machine
-   5. Design a Elevator System
-   6. Design a Air Traffic Controller
-   7. Design a Amazon Locker System
-   8. Design a service for Alexa devices to report battery status
-   9. [Design a Parking Lot System](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/parking_lot/parking_lot.ipynb)
-   10. Design a File System
-   11. [Design a Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
-   12. [Design a call center](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/call_center/call_center.ipynb)
-7. [Embedded System Design Pattern Catalogue](https://embeddedartistry.com/fieldatlas/design-pattern-catalogue/)
-8. Embedded System Design Topics
-   1. Small memory management
-   2. Multi-MCU communication/coordination
-   3. Scheduling
-   4. Execution in place (XIP)
-   5. Dynamic memory allocation for embedded systems
-9. Implementations
-   1.  [Consistent Hashing](Interview/SystemDesign/consistentHashing.md)
-   2.  Memcache
+#### **Advanced RTOS Features**
+- **[Memory Protection](./Real_Time_Systems/Memory_Protection.md)** - MPU usage, memory isolation
+- **[Power Management](./Real_Time_Systems/Power_Management.md)** - Tickless idle, sleep modes
+- **[Performance Monitoring](./Real_Time_Systems/Performance_Monitoring.md)** - Task monitoring, profiling
+- **[Real-Time Debugging](./Real_Time_Systems/Real_Time_Debugging.md)** - RTOS-aware debugging
 
+### **Debugging & Testing**
+*Essential skills for troubleshooting and validation*
 
-### G. By Company
-1.  [Tesla](Interview/Company/tesla.md)
-2.  [Google](https://www.geeksforgeeks.org/google-interview-preparation/)
-3.  [Qualcomm](Interview/Company/qualcomm.md)
-4.  [Nvidia](Interview/Company/Nvidia.md)
-5.  [Cisco](Interview/Company/Cisco.md)
-6.  [Intuitive Surgical](Interview/Company/intuitive/README.md)
-7.  [Verkada](Interview/Company/Verkada/Phone_screen.md)
-8.  [Amazon](Interview/Company/amazon.md)
-9.  [Lyft](Interview/Company/lyft.md)
-10. [FaceBook](Interview/Company/facebook.md)
-11. Zoox
-12. [Apple](Interview/Company/apple.md)
+#### **Hardware Debug Tools (Hands-on Skills)**
+- **[JTAG/SWD Debugging](./Debugging/JTAG_SWD_Debugging.md)** - In-circuit debugging, breakpoints
+- **[Logic Analyzer Usage](./Debugging/Logic_Analyzer_Usage.md)** - Protocol analysis, timing verification
+- **[Oscilloscope Measurements](./Debugging/Oscilloscope_Measurements.md)** - Signal measurement, timing analysis
 
-### H. Mock Tests
-1.  [Computer networks mock tests](https://www.geeksforgeeks.org/quiz-corner-gq/#Computer%20Networks%20Mock%20Tests)
-2.  [C++ Mock tests](https://www.geeksforgeeks.org/quiz-corner-gq/#C++%20Programming%20Mock%20Tests)
-3.  [Operating system mock tests](https://www.geeksforgeeks.org/quiz-corner-gq/#Operating%20Systems%20Mock%20Tests)
+#### **Software Analysis & Testing**
+- **[Static Analysis](./Debugging/Static_Analysis.md)** - Code analysis tools, lint checkers
+- **[Dynamic Analysis](./Debugging/Dynamic_Analysis.md)** - Runtime analysis, memory checking
+- **[Code Coverage](./Debugging/Code_Coverage.md)** - Test coverage measurement
+- **[Performance Profiling](./Debugging/Performance_Profiling.md)** - Performance analysis, bottlenecks
 
-### I. [Interview Preparation](Interview/Preparation/prepare.md)
+#### **System Testing & Validation**
+- **[Unit Testing for Embedded](./Debugging/Unit_Testing_Embedded.md)** - Unit test frameworks, mocking
+- **[Hardware-in-the-Loop Testing](./Debugging/Hardware_in_the_Loop_Testing.md)** - HIL testing, validation
 
-### J. Take-Home challenges
-1. [Fan Controll System](Interview\Company\intuitive\README.md)
-2. [Dynamic Memory Profiling]()
+### **System Integration**
+*System-level design and deployment knowledge*
 
-## Hands-On Projects
-### A. Raspberry Pi
-1.  [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
-2.  [Raspberry-Pi-Multicore](https://github.com/LdB-ECM/Raspberry-Pi)
-3.  [David Welch's tutorials](https://github.com/dwelch67/raspberrypi)
-4.  [Cambridge tutorials](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/)
-5.  [Bare Metal Programming on Raspberry Pi 3](https://github.com/bztsrc/raspi3-tutorial)
+#### **Boot & Firmware Management**
+- **[Bootloader Development](./System_Integration/Bootloader_Development.md)** - Bootloader design, boot sequence
+- **[Firmware Update Mechanisms](./System_Integration/Firmware_Update_Mechanisms.md)** - OTA updates, update strategies
+- **[Watchdog Timers and System Recovery](./System_Integration/Watchdog_Timers_System_Recovery.md)** - System recovery, fault tolerance
 
-## Book Recommendation
-1.  Network
-    1. Unix Network Programming, volumes 1-2 by W. Richard Stevens.
-    2. Internetworking with TCP/IP, volume I by Douglas E. Comer.
-    3. TCP/IP Illustrated, volumes 1-3 by W. Richard Stevens and Gary R. Wright.
-    4. TCP/IP Network Administration by Craig Hunt. Published by O’Reilly & Associates, Inc.
-    5. Advanced Programming in the UNIX Environment by W. Richard Stevens.
-    6. Computer Networking - A Top-Down Approach
+#### **Error Handling & Build Systems**
+- **[Error Handling and Logging](./System_Integration/Error_Handling_Logging.md)** - Error management, logging systems
+- **[Cross-Compilation Setup](./System_Integration/Cross_compilation_Setup.md)** - Toolchain setup, cross-compilation
+- **[Build Systems](./System_Integration/Build_Systems.md)** - Make, CMake, build automation
+- **[Version Control Workflows](./System_Integration/Version_Control_Workflows.md)** - Git workflows, branching strategies
 
-## Useful Links
-[Embedded software interview archive](https://docs.google.com/document/d/1uW030FMfBxKLxXz-eIwyzlMJdERN5DMEwtUnJMYsF-g/edit)
+## 💎 **Advanced Topics (50%+ for senior roles)**
 
-[Embedded Noob Engineer Guide](https://drive.google.com/file/d/0B8K8lEdVL_HUZHgwd0t5Zmc1d3c/view?usp=sharing)
+### **Advanced Hardware**
+*Senior-level hardware knowledge for complex systems*
 
-[C 语言资源大全中文版](https://github.com/jobbole/awesome-c-cn#build-systems)
+#### **Hardware Design & Analysis**
+- **[Reading Schematics and Datasheets](./Advanced_Hardware/Reading_Schematics_Datasheets.md)** - Schematic analysis, datasheet interpretation
+- **[Component Selection](./Advanced_Hardware/Component_Selection.md)** - Component trade-offs, requirements analysis
+- **[Power Supply Design](./Advanced_Hardware/Power_Supply_Design.md)** - Power architecture, regulation
+- **[PCB Design Considerations](./Advanced_Hardware/PCB_Design_Considerations.md)** - Layout, routing, design rules
 
-[Awesome Embedded Github](https://github.com/embedded-boston/awesome-embedded-systems)
+#### **Signal Integrity & EMC**
+- **[Signal Integrity Basics](./Advanced_Hardware/Signal_Integrity_Basics.md)** - High-speed design, impedance matching
+- **[EMI/EMC Considerations](./Advanced_Hardware/EMI_EMC_Considerations.md)** - Electromagnetic compatibility
+- **[Clock Distribution](./Advanced_Hardware/Clock_Distribution.md)** - Clock tree design, jitter
+- **[Thermal Management](./Advanced_Hardware/Thermal_Management.md)** - Thermal analysis, heat dissipation
 
-[Awesome C Github](https://github.com/kozross/awesome-c)
+#### **Advanced SoC & Multi-Core**
+- **[DMA Programming](./Advanced_Hardware/DMA_Programming.md)** - DMA controllers, scatter-gather
+- **[Cache Management and Coherency](./Advanced_Hardware/Cache_Management_Coherency.md)** - Cache optimization, coherency protocols
+- **[Memory Protection Units](./Advanced_Hardware/Memory_Protection_Units.md)** - MPU programming, memory isolation
+- **[Multi-Core Programming](./Advanced_Hardware/Multi_Core_Programming.md)** - SMP, inter-core communication
+- **[Vector Processing and FPUs](./Advanced_Hardware/Vector_Processing_FPUs.md)** - SIMD, floating-point optimization
+- **[Hardware Accelerators](./Advanced_Hardware/Hardware_Accelerators.md)** - Custom accelerators, FPGA integration
 
-[Awesome Embedded Interview Link](https://docs.google.com/document/d/18HMyd-lFu1hWiixFLS2Pc7-SgyzDDqitzXbfAnUVeBE/mobilebasic)
+#### **Advanced Tools & Analysis**
+- **[Advanced Profiling Tools](./Advanced_Hardware/Advanced_Profiling_Tools.md)** - Performance profilers, trace analysis
+- **[Advanced Analysis Tools](./Advanced_Hardware/Advanced_Analysis_Tools.md)** - Signal analyzers, protocol analyzers
 
-[Embedded system guide repo collection](https://github.com/Embedded-Systems-Guide)
+### **Embedded Security**
+*Critical for secure system design*
 
-[CS Notes](https://notes.eddyerburgh.me/)
+#### **Security Fundamentals**
+- **[Secure Boot and Chain of Trust](./Embedded_Security/Secure_Boot_Chain_Trust.md)** - Boot security, trusted execution
+- **[Cryptographic Foundations](./Embedded_Security/Cryptographic_Foundations.md)** - Encryption, hashing, key management
+- **[TPM 2.0 Basics](./Embedded_Security/TPM2_Basics.md)** - Trusted Platform Module fundamentals
 
-[The Linux Documentation Project](https://tldp.org/guides.html)
+#### **Platform & Implementation Security**
+- **[Platform Security](./Embedded_Security/Platform_Security.md)** - Hardware security features, secure elements
 
-[tenouk](https://www.tenouk.com/Sitemap.html)
+### **Performance Optimization**
+*Critical for resource-constrained systems*
 
-[Linux Journal](https://www.linuxjournal.com)
+#### **Code & Memory Optimization**
+- **[Code Optimization Techniques](./Performance_Optimization/Code_Optimization_Techniques.md)** - Algorithm optimization, compiler flags
+- **[Memory and Cache Strategies](./Performance_Optimization/Memory_Cache_Strategies.md)** - Cache-aware programming, memory optimization
+- **[Power Optimization](./Performance_Optimization/Power_Optimization.md)** - Power-aware design, sleep modes
 
-[Linux Kernel Documentation](https://www.kernel.org/doc/html/v4.10/index.html)
+#### **Performance Analysis & Tools**
+- **[Performance Profiling](./Performance_Optimization/Performance_Profiling.md)** - Function profiling, memory analysis
+- **[Optimization Tools](./Performance_Optimization/Optimization_Tools.md)** - Static/dynamic analysis tools
+- **[Benchmarking Frameworks](./Performance_Optimization/Benchmarking_Frameworks.md)** - Performance measurement, benchmarking
 
-[Memory Management References](https://www.memorymanagement.org/)
+---
 
-[bogotobogo](https://www.bogotobogo.com/cplusplus/multithreading_pthread.php)
+## 🔧 **Specialized Domains (Domain-Specific Knowledge)**
 
-[bogotobogo Linux](https://www.bogotobogo.com/Linux/)
+### **Data Structures & Algorithms**
+*Algorithm questions common in embedded interviews*
 
-[OSDev.org](https://wiki.osdev.org/Main_Page)
+#### **Essential Data Structures**
+- **[Arrays and Bit Manipulation](./Data_Struct_Implementation/bitsArray/)** - Array operations, bit tricks
+- **[Stacks and Queues](./Data_Struct_Implementation/stack/)** - LIFO/FIFO operations
+- **[Circular Ring Buffers](./Data_Struct_Implementation/circularRingBuffer/)** - Embedded-specific circular buffers
+- **[Hash Tables](./Data_Struct_Implementation/hashTable/)** - Fast lookup tables
+- **[Binary Search Trees](./Data_Struct_Implementation/BST/)** - Tree operations, searching
+- **[State Machines](./Data_Struct_Implementation/stateMachine/)** - FSM implementation patterns
 
-[OS projects](https://wiki.osdev.org/Projects)
+#### **Sorting & Search Algorithms**
+- **[Bubble Sort](./Data_Struct_Implementation/bubbleSort/)** - Simple sorting algorithm
+- **[Insertion Sort](./Data_Struct_Implementation/insertionSort/)** - Small dataset sorting
+- **[Merge Sort](./Data_Struct_Implementation/mergeSort/)** - Stable sorting algorithm
+- **[Quick Sort](./Data_Struct_Implementation/quickSort/)** - Efficient general-purpose sorting
+- **[Heap Sort](./Data_Struct_Implementation/heapSort/)** - Priority queue-based sorting
 
-[Embedded Developers World](https://embeddedworlddevelopers.blogspot.com/)
+#### **Advanced Embedded Concepts**
+- **[Memory Pool Allocator](./Data_Struct_Implementation/memoryPoolAllocator/)** - Deterministic allocation
+- **[Aligned Memory Allocation](./Data_Struct_Implementation/alignedMalloc/)** - Hardware-aligned allocation
+- **[Memory Mapping](./Data_Struct_Implementation/memoryMap/)** - Memory layout management
+- **[Timer Wheel](./Data_Struct_Implementation/timerWheel/)** - Efficient timer management
+- **[Task Scheduler](./Data_Struct_Implementation/taskScheduler/)** - Custom scheduler implementation
+- **[Concurrency Patterns](./Data_Struct_Implementation/concurrency/)** - Multi-threading patterns
+
+### **Operating Systems & Linux**
+*Linux knowledge for embedded Linux positions*
+
+#### **Kernel & System Programming**
+- **[Linux Kernel Programming](./Operating_System/Linux_Kernel_Programming.md)** - Kernel modules, system calls, drivers
+- **[Process Management](./Operating_System/Process_Management.md)** - Process creation, scheduling, IPC
+- **[Device Drivers](./Operating_System/Device_Drivers.md)** - Character/block/network drivers
+- **[Multi-threading](./Operating_System/Multi_threading.md)** - pthread programming, synchronization
+
+#### **Memory & Interrupt Management**
+- **[Virtual Memory Concepts](./Operating_System/virtual_memory.md)** - MMU, paging, virtual addressing
+- **[Interrupt Fundamentals](./Operating_System/Interrupt.md)** - Linux interrupt handling
+- **[ARM64 Exception Handling](./Operating_System/Exception_ARM64.md)** - ARM-specific exception handling
+
+#### **Embedded Linux & Real-Time**
+- **[Embedded Linux](./Operating_System/Embedded_Linux.md)** - Buildroot, Yocto, custom distributions
+- **[Real-time Linux](./Operating_System/Real_time_Linux.md)** - PREEMPT_RT, Xenomai, real-time extensions
+
+### **Computer Architecture**
+*Low-level architecture knowledge for performance and optimization*
+
+#### **Processor Architecture**
+- **[ARM Architecture](./Computer_architecture/ARM_Architecture.md)** - ARM processor family, instruction sets
+- **[CPU Architecture](./Computer_architecture/CPU_Architecture.md)** - ARM, x86, RISC-V instruction sets
+- **[Pipeline Architecture](./Computer_architecture/Pipeline_Architecture.md)** - Instruction pipelining, hazards
+- **[Vector Processing](./Computer_architecture/Vector_Processing.md)** - SIMD instructions, vectorization
+- **[Floating Point](./Computer_architecture/Floating_Point.md)** - IEEE 754, FPU programming
+
+#### **Memory Architecture**
+- **[Memory Systems](./Computer_architecture/Memory_Systems.md)** - Memory organization, hierarchy
+- **[Memory Hierarchy](./Computer_architecture/Memory_Hierarchy.md)** - Cache levels, virtual memory, TLB
+- **[Direct Memory Access](./Computer_architecture/Direct_Memory_Access.md)** - DMA controllers, transfers
+- **[Memory Ordering](./Computer_architecture/Memory_Ordering.md)** - Memory barriers, atomic operations
+
+#### **Multi-Core & Performance**
+- **[Multi-core Systems](./Computer_architecture/Multi_core_Systems.md)** - Cache coherency, inter-core communication
+- **[Performance Counters](./Computer_architecture/Performance_Counters.md)** - CPU profiling, performance monitoring
+
+---
+
+## 📚 **Study Schedule by Experience Level**
+
+#### **For Entry-Level Positions (0-2 years)**
+1. **Week 1-2**: Master [C Programming Mastery](#c-programming-mastery) - Focus on pointers, memory management
+2. **Week 3-4**: Learn [Hardware Fundamentals](#hardware-fundamentals) - GPIO, interrupts, timers
+3. **Week 5-6**: Study [Communication Interfaces](#communication-interfaces--protocols) - UART, SPI, I2C
+4. **Week 7**: Practice coding problems from [Data Structures & Algorithms](#data-structures--algorithms)
+5. **Week 8**: Mock interviews and review
+
+#### **For Mid-Level Positions (2-5 years)**
+1. **Week 1**: Quick review of High Priority topics
+2. **Week 2-3**: Deep dive into [Real-Time Systems & RTOS](#real-time-systems--rtos)
+3. **Week 4**: Master [Debugging & Testing](#debugging--testing) tools and techniques
+4. **Week 5**: Study [System Integration](#system-integration) concepts
+5. **Week 6**: Practice system design questions and mock interviews
+
+#### **For Senior-Level Positions (5+ years)**
+1. **Week 1**: Review Medium Priority topics
+2. **Week 2**: Master [Advanced Hardware](#advanced-hardware) concepts
+3. **Week 3**: Study [Embedded Security](#embedded-security) and [Performance Optimization](#performance-optimization)
+4. **Week 4**: Focus on [Specialized Domains](#specialized-domains-domain-specific-knowledge) relevant to target role
+5. **Week 5**: System design practice and leadership scenario preparation
+
+## 🔥 **Most Frequently Asked Interview Questions**
+
+1. **"Explain volatile keyword"** → [Type Qualifiers](./Embedded_C/Type_Qualifiers.md)
+2. **"Difference between stack and heap"** → [Memory Management](./Embedded_C/Memory_Management.md)
+3. **"How do interrupts work?"** → [External Interrupts](./Hardware_Fundamentals/External_Interrupts.md)
+4. **"Implement a circular buffer"** → [Circular Ring Buffers](./Data_Struct_Implementation/circularRingBuffer/)
+5. **"SPI vs I2C vs UART"** → [Communication Protocols](#communication-interfaces--protocols)
+6. **"What is a watchdog timer?"** → [Watchdog Timers](./Hardware_Fundamentals/Watchdog_Timers.md)
+7. **"Priority inversion problem"** → [Priority Inversion Prevention](./Real_Time_Systems/Priority_Inversion_Prevention.md)
+8. **"Memory alignment importance"** → [Structure Alignment](./Embedded_C/Structure_Alignment.md)
+9. **"Bootloader design"** → [Bootloader Development](./System_Integration/Bootloader_Development.md)
+10. **"Debugging embedded systems"** → [JTAG/SWD Debugging](./Debugging/JTAG_SWD_Debugging.md)
+
+## 🎯 **Success Tips for Embedded Software Interviews**
+
+#### **Technical Preparation**
+- **Practice on whiteboards/paper** - Many embedded interviews don't use computers
+- **Know your fundamentals cold** - C programming, pointers, memory management
+- **Understand hardware-software interaction** - Be able to explain register access, ISRs
+- **Practice system design** - Be ready to design embedded systems from requirements
+
+#### **Common Interview Formats**
+- **Coding on paper/whiteboard** - Implement functions, data structures, algorithms
+- **System design** - Design embedded systems, explain trade-offs
+- **Hardware questions** - Explain protocols, timing diagrams, hardware interfaces
+- **Debugging scenarios** - How would you debug this problem?
+
+#### **What Interviewers Look For**
+- **Problem-solving approach** - How you break down complex problems
+- **Trade-off analysis** - Understanding constraints (power, memory, timing)
+- **Practical experience** - Real-world embedded systems knowledge
+- **Communication skills** - Ability to explain technical concepts clearly
+
+---
+
+## 🎤 **Interview Practice & Resources**
+
+### **Classic Embedded Interview Questions**
+*Battle-tested questions that appear in most embedded interviews*
+
+- **[Common Embedded Interview Questions](./Interview/Concept/Common_embedded_interview.md)** - Preprocessor, loops, volatile, pointers, memory
+- **[Embedded Concept Questions](./Interview/Concept/Concept_questions.md)** - Core embedded concepts Q&A
+- **[General Embedded Interview](./Interview/Concept/embedded_interview_questions.md)** - Comprehensive question bank
+
+#### **Protocol-Specific Questions**
+- **[UART Interview Questions](./Interview/Concept/UART_interview_questions.md)** - UART-specific Q&A
+- **[SPI Interview Questions](./Interview/Concept/SPI_interview_questions.md)** - SPI modes, timing, troubleshooting
+- **[I2C Interview Questions](./Interview/Concept/I2C_interview_questions.md)** - Addressing, arbitration, clock stretching
+- **[CAN Interview Questions](./Interview/Concept/CAN_interview_questions.md)** - CAN frames, error handling, arbitration
+
+### **LeetCode for Embedded Developers**
+*Curated coding problems focusing on C programming without advanced data structures*
+
+- **[LeetCode for Embedded Developer](./Interview/Algorithm/LeetCode_for_Embedded_Developer.md)** - Curated problems with difficulty ratings
+- **[LeetCode for Embedded (Advanced)](./Interview/Algorithm/LeetCode_for_embedded_advanced.md)** - Advanced problems for senior roles
+- **[LeetCode OS Flavor](./Interview/Algorithm/leetcodeOSflavor.md)** - OS-related coding problems
+
+#### **Data Structure Practice**
+- **[Algorithm Preparation Guide](./Interview/Algorithm/algorithm_prepare.md)** - Study approach and patterns
+- **[Array Problems](./Interview/Algorithm/Array.md)** - Array manipulation and techniques
+- **[Linked List Problems](./Interview/Algorithm/linked_list.md)** - Linked list operations
+- **[String Problems](./Interview/Algorithm/string.md)** - String manipulation in C
+- **[Matrix Problems](./Interview/Algorithm/matrix.md)** - 2D array operations
+- **[Data Structures Overview](./Interview/Algorithm/dataStructure.md)** - Core data structures review
+
+### **Behavioral Interview Prep**
+*Soft skills and behavioral questions for the non-technical rounds*
+
+- **[Common Behavioral Questions](./Interview/Behavior/commonBehavior.md)** - STAR method examples
+- **[Brain Teaser Questions](./Interview/BrainTeaser/BranTeaser_questions.md)** - Logic puzzles and estimation
+
+### **Interview Preparation Guides**
+- **[General Interview Preparation](./Interview/Preparation/prepare.md)** - Comprehensive prep checklist
+- **[Onsite Interview Preparation](./Interview/Preparation/onSite_prepare.md)** - Onsite-specific tips
+
+---
+
+## 🏢 **Company-Specific Preparation**
+
+*Interview experiences and company-specific preparation guides*
+
+| Company | Guide |
+|---------|-------|
+| **Amazon** | [Amazon Interview Prep](./Interview/Company/Amazon/amazon.md) |
+| **Apple** | [Apple Interview Prep](./Interview/Company/Apple/apple.md) |
+| **Tesla** | [Tesla Interview Prep](./Interview/Company/tesla.md) |
+| **Nvidia** | [Nvidia Interview Prep](./Interview/Company/Nvidia.md) |
+| **Qualcomm** | [Qualcomm Interview Prep](./Interview/Company/qualcomm.md) |
+| **Cisco** | [Cisco Interview Prep](./Interview/Company/Cisco.md) |
+| **Meta/Facebook** | [Meta Topics Prep](./Interview/Company/facebook/topics_prepare.md) |
+| **Zoox** | [Zoox Interview Prep](./Interview/Company/zoox.md) |
+| **Lyft** | [Lyft Interview Prep](./Interview/Company/lyft.md) |
+| **Verkada** | [Verkada Phone Screen](./Interview/Company/Verkada/Phone_screen.md) |
+| **Intuitive** | [Intuitive Project](./Interview/Company/intuitive/README.md) |
+
+---
+
+## 🏗️ **System Design for Interviews**
+
+### **System Design Methodology**
+*Structured approach to tackle system design questions*
+
+- **[System Design Overview](./Interview/SystemDesign/systemDesign.md)** - 4S and 7-step approaches
+- **[Key Characteristics of Distributed Systems](./Interview/SystemDesign/keyCharacterDistributedSystem.md)** - Scalability, reliability, availability
+
+### **Distributed Systems Concepts**
+- **[CAP Theorem](./Interview/SystemDesign/CAPTheorem.md)** - Consistency, availability, partition tolerance
+- **[Load Balancing](./Interview/SystemDesign/loadBalancing.md)** - Load distribution strategies
+- **[Caching](./Interview/SystemDesign/caching.md)** - Cache strategies and invalidation
+- **[Data Partitioning](./Interview/SystemDesign/dataPartitioning.md)** - Sharding and partitioning
+- **[Consistent Hashing](./Interview/SystemDesign/consistentHashing.md)** - Distributed hash tables
+- **[Proxies](./Interview/SystemDesign/proxies.md)** - Forward and reverse proxies
+- **[Redundancy & Replication](./Interview/SystemDesign/Redundancy&Replication.md)** - Fault tolerance
+- **[Indexes](./Interview/SystemDesign/indexes.md)** - Database indexing
+- **[Long Polling, WebSockets, Server Events](./Interview/SystemDesign/longpollingWebSocketsServerEvents.md)** - Real-time communication
+
+### **Embedded System Design Topics**
+- **[Cross-MCU Communication](./Interview/SystemDesign/embeddedDesignTopics/crossMCUComm.md)** - Multi-processor communication
+- **[Memory Management Design](./Interview/SystemDesign/embeddedDesignTopics/memory_management.md)** - Memory architecture decisions
+
+### **System Design Examples**
+- **[Cache Design](./Interview/SystemDesign/examples/cacheDesign.md)** - Implementing a cache system
+- **[Air Control System](./Interview/SystemDesign/examples/airControlSystem.md)** - Embedded system design example
+- **[Consistent Hashing Implementation](./Interview/SystemDesign/implementation/consistentHashing.md)** - Implementation details
+- **[MemCache Implementation](./Interview/SystemDesign/implementation/memCache.md)** - Cache implementation
+
+---
+
+## 📖 **Additional Resources**
+
+### **Reference Documents**
+*PDFs and guides in the [Interview/Resources](./Interview/Resources/) folder:*
+
+- Coding Interview Tips for Facebook
+- Cracking The Coding Interview - Coding Section
+- Design Interview Types at Facebook
+- SDE-Embedded Prep Document
+- Interview Prep 2020 Guide
+
+---
+
+**🚀 Ready to ace your embedded software interview? Start with the topics most relevant to your target role and experience level!**
+
+*This guide focuses on the most interview-relevant embedded software topics. Each link provides deep technical knowledge essential for embedded software engineering roles.*
