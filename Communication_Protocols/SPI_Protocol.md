@@ -2,6 +2,11 @@
 
 > **Understanding Serial Peripheral Interface (SPI) protocol, clock modes, chip select management, and multi-slave communication for embedded systems**
 
+> ### 📚 Read the interactive version on EmbeddedInterviewLab
+> A polished **[SPI deep-dive topic](https://embeddedinterviewlab.com/topics/spi?utm_source=github&utm_medium=referral&utm_campaign=topic&utm_content=spi_protocol)** with diagrams, plus **[ranked SPI interview questions](https://embeddedinterviewlab.com/questions/topic/spi?utm_source=github&utm_medium=referral&utm_campaign=protocol_qa&utm_content=spi_protocol)** you can practice and upvote.
+
+---
+
 ## 📋 **Table of Contents**
 - [Overview](#overview)
 - [What is SPI Protocol?](#what-is-spi-protocol)

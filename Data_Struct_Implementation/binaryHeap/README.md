@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Solve embedded-flavored coding problems in-browser with AI-graded feedback, and browse the ranked question bank.
+>
+> 👉 **[Practice coding problems with AI feedback →](https://embeddedinterviewlab.com/coding?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=data_struct_implementation)** &nbsp;·&nbsp; **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=data_struct_implementation)**
+
+---
+
 ## Heap (Binary Implementation)
 
 In a heap the highest (or lowest) priority element is always stored at the root, hence the name "heap". A heap is not a sorted structure and can be regarded as partially ordered. As you see from the picture, there is no particular relationship among nodes on any given level, even among the siblings.

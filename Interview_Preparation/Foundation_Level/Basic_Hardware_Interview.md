@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Work through a community-ranked question bank, coding practice with AI feedback, and structured interview prep on the website.
+>
+> 👉 **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=interview_preparation)** &nbsp;·&nbsp; **[Explore interview prep →](https://embeddedinterviewlab.com/interview?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=interview_preparation)**
+
+---
+
 # 🎯 **Basic Hardware Interview Preparation**
 
 > **Master Hardware Fundamentals for Embedded Systems Interviews**  

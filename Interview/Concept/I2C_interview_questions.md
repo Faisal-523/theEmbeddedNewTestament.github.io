@@ -1,3 +1,11 @@
+> ## 🚀 Practice I2C interview questions interactively
+>
+> These notes power a **community-ranked, searchable question bank** on **[EmbeddedInterviewLab](https://embeddedinterviewlab.com/questions/topic/i2c?utm_source=github&utm_medium=referral&utm_campaign=concept_qa&utm_content=i2c)** — model answers, upvotes, and real "I was asked this" signals.
+>
+> 👉 **[Browse the I2C Question Bank →](https://embeddedinterviewlab.com/questions/topic/i2c?utm_source=github&utm_medium=referral&utm_campaign=concept_qa&utm_content=i2c)** &nbsp;·&nbsp; 📚 **[Read the I2C deep-dive topic →](https://embeddedinterviewlab.com/topics/i2c?utm_source=github&utm_medium=referral&utm_campaign=topic&utm_content=i2c)**
+
+---
+
 ### URL lists
 
 https://aticleworld.com/i2c-interview-questions/

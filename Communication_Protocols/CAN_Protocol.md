@@ -2,6 +2,11 @@
 
 > **Understanding Controller Area Network (CAN) protocol, message format, error handling, and arbitration for reliable embedded communication**
 
+> ### 📚 Read the interactive version on EmbeddedInterviewLab
+> A polished **[CAN deep-dive topic](https://embeddedinterviewlab.com/topics/can?utm_source=github&utm_medium=referral&utm_campaign=topic&utm_content=can_protocol)** with diagrams, plus **[ranked CAN interview questions](https://embeddedinterviewlab.com/questions/topic/can?utm_source=github&utm_medium=referral&utm_campaign=protocol_qa&utm_content=can_protocol)** you can practice and upvote.
+
+---
+
 ## 📋 **Table of Contents**
 - [Overview](#overview)
 - [What is CAN Protocol?](#what-is-can-protocol)

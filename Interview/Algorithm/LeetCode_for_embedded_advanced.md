@@ -1,3 +1,11 @@
+> ## 💻 Solve these in-browser with instant AI feedback
+>
+> Practice embedded-flavored coding problems on **[EmbeddedInterviewLab](https://embeddedinterviewlab.com/coding?utm_source=github&utm_medium=referral&utm_campaign=coding&utm_content=leetcode_advanced)** — a built-in C/C++ editor, reference solutions, and AI-graded evaluation against an interview rubric.
+>
+> 👉 **[Start coding practice →](https://embeddedinterviewlab.com/coding?utm_source=github&utm_medium=referral&utm_campaign=coding&utm_content=leetcode_advanced)**
+
+---
+
 ## Advance Leetcode questions
 ### Leetcode/Lintcode Algorithm Questions List
 

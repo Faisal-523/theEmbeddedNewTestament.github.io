@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these networking concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse networking questions →](https://embeddedinterviewlab.com/questions/domain/networking?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=network)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/tcp-ip-fundamentals?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=network)**
+
+---
+
 ## Internet Control Message Protocol (ICMP)
 
 Since IP does not have a inbuilt mechanism for sending error and control messages. It depends on Internet Control Message Protocol(ICMP) to provide an error control. It is used for reporting errors and management queries. It is a supporting protocol and used by networks devices like routers for sending the error messages and operations information.

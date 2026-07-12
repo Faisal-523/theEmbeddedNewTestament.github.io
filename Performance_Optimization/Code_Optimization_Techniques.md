@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Study the interactive embedded topics and practice coding problems with AI feedback on the website.
+>
+> 👉 **[Read the topic guides →](https://embeddedinterviewlab.com/topics?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=performance_optimization)** &nbsp;·&nbsp; **[Practice coding problems with AI feedback →](https://embeddedinterviewlab.com/coding?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=performance_optimization)**
+
+---
+
 # Code Optimization Techniques
 
 ## Quick Reference: Key Facts

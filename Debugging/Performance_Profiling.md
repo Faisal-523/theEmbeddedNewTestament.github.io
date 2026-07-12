@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these debugging / testing concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse debugging & testing questions →](https://embeddedinterviewlab.com/questions/domain/debugging-testing-tools?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=debugging)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/power-profiling-tools?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=debugging)**
+
+---
+
 # Performance Profiling for Embedded Systems
 
 > **Understanding performance profiling through concepts, not just code. Learn why performance matters and how to think about system optimization.**

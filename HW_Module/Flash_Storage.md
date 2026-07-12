@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Study the interactive version of these hardware topics — ranked interview questions with model answers and deep-dive guides.
+>
+> 👉 **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=hw_module)** &nbsp;·&nbsp; **[Read the topic guides →](https://embeddedinterviewlab.com/topics?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=hw_module)**
+
+---
+
 # Flash Storage and File System
 
 ## Flash Storage

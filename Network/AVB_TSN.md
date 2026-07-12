@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these networking concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse networking questions →](https://embeddedinterviewlab.com/questions/domain/networking?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=network)** &nbsp;·&nbsp; **[Browse the Networking guides →](https://embeddedinterviewlab.com/categories/networking?utm_source=github&utm_medium=referral&utm_campaign=kb_domain&utm_content=network)**
+
+---
+
 ## Audio/Video Bridging and Time Sensitive Networks
 
 ### **Intro**

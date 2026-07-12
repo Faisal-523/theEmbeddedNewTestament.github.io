@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these C / C++ concepts as community-ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse C / C++ interview questions →](https://embeddedinterviewlab.com/questions/domain/c?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=embedded_c)** &nbsp;·&nbsp; **[Browse the C / C++ guides →](https://embeddedinterviewlab.com/categories/c?utm_source=github&utm_medium=referral&utm_campaign=kb_domain&utm_content=embedded_c)**
+
+---
+
 # Memory Fragmentation
 
 ## 📋 Table of Contents

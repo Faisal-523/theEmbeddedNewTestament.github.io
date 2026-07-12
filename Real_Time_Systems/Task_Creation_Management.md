@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these RTOS concepts as community-ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse RTOS interview questions →](https://embeddedinterviewlab.com/questions/domain/rtos?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=real_time_systems)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/rtos-fundamentals?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=real_time_systems)**
+
+---
+
 # Task Creation and Management in RTOS
 
 > **Understanding task management through concepts, not just API calls. Learn why tasks matter and how to think about concurrent execution.**

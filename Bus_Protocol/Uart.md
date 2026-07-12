@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these bus-protocol concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse peripheral & protocol questions →](https://embeddedinterviewlab.com/questions/domain/peripherals?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=bus_protocol)** &nbsp;·&nbsp; **[Read the protocol topic guides →](https://embeddedinterviewlab.com/topics?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=bus_protocol)**
+
+---
+
 
 ```“UART” stands for Universal Asynchronous receiver-transmitter. It is a hardware peripheral that is present inside a microcontroller. ```
 

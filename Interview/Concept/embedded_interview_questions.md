@@ -1,4 +1,12 @@
 
+> ## 🚀 Practice these embedded interview questions interactively
+>
+> Get these as a **community-ranked, searchable question bank** with model answers, upvotes, and real "I was asked this" data on **[EmbeddedInterviewLab](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=concept_qa&utm_content=embedded_qbank)**.
+>
+> 👉 **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=concept_qa&utm_content=embedded_qbank)** &nbsp;·&nbsp; 💻 **[Practice coding problems with AI feedback →](https://embeddedinterviewlab.com/coding?utm_source=github&utm_medium=referral&utm_campaign=coding&utm_content=embedded_qbank)**
+
+---
+
 Embedded Interview Questions
 
 Operating Systems

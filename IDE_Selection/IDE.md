@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Study the interactive embedded topics and ranked interview questions on the website.
+>
+> 👉 **[Read the topic guides →](https://embeddedinterviewlab.com/topics?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=ide_selection)** &nbsp;·&nbsp; **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=ide_selection)**
+
+---
+
 ## All about Embedded IDEs and their features
 
 ### ***Fully Abstracted IDE***

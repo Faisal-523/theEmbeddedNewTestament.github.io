@@ -2,6 +2,11 @@
 
 > **Understanding Universal Asynchronous Receiver/Transmitter protocol, baud rate, data framing, and error detection for embedded systems**
 
+> ### 📚 Read the interactive version on EmbeddedInterviewLab
+> A polished **[UART deep-dive topic](https://embeddedinterviewlab.com/topics/uart?utm_source=github&utm_medium=referral&utm_campaign=topic&utm_content=uart_protocol)** with diagrams, plus **[ranked UART interview questions](https://embeddedinterviewlab.com/questions/topic/uart?utm_source=github&utm_medium=referral&utm_campaign=protocol_qa&utm_content=uart_protocol)** you can practice and upvote.
+
+---
+
 ## 📋 **Table of Contents**
 - [Overview](#overview)
 - [What is UART Protocol?](#what-is-uart-protocol)

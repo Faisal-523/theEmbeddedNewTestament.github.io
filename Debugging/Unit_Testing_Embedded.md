@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these debugging / testing concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse debugging & testing questions →](https://embeddedinterviewlab.com/questions/domain/debugging-testing-tools?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=debugging)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/testing-and-coverage?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=debugging)**
+
+---
+
 # Unit Testing for Embedded Systems
 
 > **Implementing comprehensive unit testing strategies with hardware abstraction and mock frameworks for reliable embedded software development**

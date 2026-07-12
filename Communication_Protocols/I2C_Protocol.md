@@ -2,6 +2,11 @@
 
 > **Understanding Inter-Integrated Circuit (I2C) protocol, addressing, clock stretching, and multi-master arbitration for embedded systems**
 
+> ### 📚 Read the interactive version on EmbeddedInterviewLab
+> A polished **[I2C deep-dive topic](https://embeddedinterviewlab.com/topics/i2c?utm_source=github&utm_medium=referral&utm_campaign=topic&utm_content=i2c_protocol)** with diagrams, plus **[ranked I2C interview questions](https://embeddedinterviewlab.com/questions/topic/i2c?utm_source=github&utm_medium=referral&utm_campaign=protocol_qa&utm_content=i2c_protocol)** you can practice and upvote.
+
+---
+
 ## 📋 **Table of Contents**
 - [Overview](#overview)
 - [What is I2C Protocol?](#what-is-i2c-protocol)

@@ -1,3 +1,11 @@
+> ## 🚀 Practice these embedded interview questions interactively
+>
+> Get these as a **community-ranked, searchable question bank** with model answers, upvotes, and real "I was asked this" data on **[EmbeddedInterviewLab](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=concept_qa&utm_content=concept_questions)**.
+>
+> 👉 **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=concept_qa&utm_content=concept_questions)** &nbsp;·&nbsp; 📚 **[Browse all knowledge topics →](https://embeddedinterviewlab.com/topics?utm_source=github&utm_medium=referral&utm_campaign=topics&utm_content=concept_questions)**
+
+---
+
 ## Interview Conceptual Questions
 
 ### Conceptual Questions and Links Table

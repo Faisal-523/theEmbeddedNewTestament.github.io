@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these RTOS concepts as community-ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse RTOS interview questions →](https://embeddedinterviewlab.com/questions/domain/rtos?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=real_time_systems)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/rtos-fundamentals?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=real_time_systems)**
+
+---
+
 # Real-Time Debugging in RTOS
 
 > **Understanding real-time debugging techniques, tools, and strategies for embedded systems with focus on FreeRTOS debugging and real-time system troubleshooting**

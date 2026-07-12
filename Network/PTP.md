@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these networking concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse networking questions →](https://embeddedinterviewlab.com/questions/domain/networking?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=network)** &nbsp;·&nbsp; **[Browse the Networking guides →](https://embeddedinterviewlab.com/categories/networking?utm_source=github&utm_medium=referral&utm_campaign=kb_domain&utm_content=network)**
+
+---
+
 ## Precision Type Protocol (PTP IEEE1588)
 
 The Precision Time Protocol, PTP, is designed to synchronize clocks on a local area network (LAN) to sub-microsecond precision. The underlying assumption is that the accurate time source is on the same LAN as the systems that are synchronizing their clocks. That differs from NTP, which assumes that the time server is remote. An advantage of synchronizing via the LAN is that latency becomes far more predictable. There are no queuing delays due to routers (recall that routers have to store an entire message before forwarding it to the next router) and physical distances tend to be far smaller. Ethernet switches do create some latency, of course, and there is a chance that a packet may be queued if a destination is receiving other messages. Switch latency, however, tend to be on the order of a few microseconds and queuing can be nonexistent if there isn’t much traffic.

@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Round out your prep with a community-ranked question bank and structured interview guides.
+>
+> 👉 **[Explore interview prep →](https://embeddedinterviewlab.com/interview?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=interview_behavior)** &nbsp;·&nbsp; **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=interview_behavior)**
+
+---
+
 • ***Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.***
 
 • ***Describe a time when you were faced with a stressful situation that demonstrated your coping skills.***

@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these security concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse safety & security questions →](https://embeddedinterviewlab.com/questions/domain/safety-security-reliability?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=embedded_security)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/secure-boot-and-crypto?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=embedded_security)**
+
+---
+
 # Cryptographic Foundations
 
 ## The Philosophy of Cryptography in Embedded Systems

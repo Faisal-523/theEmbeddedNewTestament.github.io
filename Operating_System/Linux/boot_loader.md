@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these OS / Linux concepts as community-ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse Embedded Linux & OS questions →](https://embeddedinterviewlab.com/questions/domain/embedded-linux?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=operating_system)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/linux-boot-process?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=operating_system)**
+
+---
+
 ## How Boot Loaders Work
 ### What BIOS does for us
 The BIOS is the firmware in the ROM of a PC. When the PC is powered up, the BIOS is the first program that runs. All other programs must be loaded into RAM first. The BIOS contains the following parts:

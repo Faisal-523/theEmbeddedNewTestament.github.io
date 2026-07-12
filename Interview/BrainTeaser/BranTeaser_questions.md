@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Round out your prep with a community-ranked question bank and structured interview guides.
+>
+> 👉 **[Explore interview prep →](https://embeddedinterviewlab.com/interview?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=interview_brainteaser)** &nbsp;·&nbsp; **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=interview_brainteaser)**
+
+---
+
 ## List of Common Brain Teaser Questions
 
 1. Array Game

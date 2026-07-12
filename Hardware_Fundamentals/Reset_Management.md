@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these hardware concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse peripheral & hardware questions →](https://embeddedinterviewlab.com/questions/domain/peripherals?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=hardware_fundamentals)** &nbsp;·&nbsp; **[Browse the Peripherals guides →](https://embeddedinterviewlab.com/categories/peripherals?utm_source=github&utm_medium=referral&utm_campaign=kb_domain&utm_content=hardware_fundamentals)**
+
+---
+
 # 🔄 Reset Management
 
 > **Mastering System Reset Mechanisms and Recovery Strategies**  

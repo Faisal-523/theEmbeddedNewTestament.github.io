@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these protocol concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse peripheral & protocol questions →](https://embeddedinterviewlab.com/questions/domain/peripherals?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=communication_protocols)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/uart?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=communication_protocols)**
+
+---
+
 # UART Configuration and Setup
 
 > **Understanding UART hardware setup, buffering strategies, and interrupt handling for reliable serial communication**

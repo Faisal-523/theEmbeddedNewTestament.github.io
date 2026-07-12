@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these RTOS concepts as community-ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse RTOS interview questions →](https://embeddedinterviewlab.com/questions/domain/rtos?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=real_time_systems)** &nbsp;·&nbsp; **[Browse the RTOS guides →](https://embeddedinterviewlab.com/categories/rtos?utm_source=github&utm_medium=referral&utm_campaign=kb_domain&utm_content=real_time_systems)**
+
+---
+
 # Performance Monitoring in Real-Time Systems
 
 > **Comprehensive guide to implementing performance monitoring systems for CPU utilization, memory usage, and timing analysis in embedded real-time systems with FreeRTOS examples**

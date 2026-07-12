@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Study the interactive version of these advanced-hardware topics — ranked interview questions and deep-dive guides.
+>
+> 👉 **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=advanced_hardware)** &nbsp;·&nbsp; **[Read the topic guides →](https://embeddedinterviewlab.com/topics?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=advanced_hardware)**
+
+---
+
 # Thermal Management
 
 > **Managing Heat for Reliable Operation**  

@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these C / C++ concepts as community-ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse C / C++ interview questions →](https://embeddedinterviewlab.com/questions/domain/c?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=embedded_c)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/structs-unions-bitfields?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=embedded_c)**
+
+---
+
 # Bit Manipulation for Embedded Systems
 
 > **Essential bit operations and manipulation techniques for embedded C programming**

@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Solve embedded-flavored coding problems in-browser with AI-graded feedback, and browse the ranked question bank.
+>
+> 👉 **[Practice coding problems with AI feedback →](https://embeddedinterviewlab.com/coding?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=data_struct_implementation)** &nbsp;·&nbsp; **[Open the Interview Question Bank →](https://embeddedinterviewlab.com/questions?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=data_struct_implementation)**
+
+---
+
 ## Count Set Bits with lookup table
 
 To have a lookup table is a very fast way to check values. This is extremely useful for questions like [***Program to count number of set bits in an (big) array***](https://www.geeksforgeeks.org/program-to-count-number-of-set-bits-in-an-big-array/).

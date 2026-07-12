@@ -1,3 +1,11 @@
+> ## 🚀 Practice & deep-dive on EmbeddedInterviewLab
+>
+> Get these debugging / testing concepts as ranked interview questions with model answers, plus interactive deep-dive guides.
+>
+> 👉 **[Browse debugging & testing questions →](https://embeddedinterviewlab.com/questions/domain/debugging-testing-tools?utm_source=github&utm_medium=referral&utm_campaign=kb_cta&utm_content=debugging)** &nbsp;·&nbsp; **[Read the in-depth guide →](https://embeddedinterviewlab.com/topics/debugging-embedded?utm_source=github&utm_medium=referral&utm_campaign=kb_topic&utm_content=debugging)**
+
+---
+
 # Static Analysis for Embedded Systems
 
 > **Leveraging static analysis tools and techniques to detect defects, ensure code quality, and prevent runtime failures in embedded software**
